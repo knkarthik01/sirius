@@ -34,6 +34,7 @@ if(SIRIUS_BUILD_STATIC)
   install(
     TARGETS sirius_core
             simpatico
+            simpatico_cache_identity
             duckdb_static
             dummy_static_extension_loader
             core_functions_extension
